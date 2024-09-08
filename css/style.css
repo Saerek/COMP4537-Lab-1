@@ -1,0 +1,14 @@
+.button {
+    width: 10em;  /* Width as specified */
+    height: 5em;  /* Height as specified */
+    margin: 5px;
+    display: inline-block; /* To align buttons in a row */
+    position: relative; /* Change from absolute to relative for inline flow */
+}
+#container {
+    min-height: 5em; /* Ensure container can hold at least one row of buttons */
+    width: 100%;
+    border: 1px solid black;
+    white-space: nowrap; /* Prevent wrapping to ensure row alignment */
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+}
